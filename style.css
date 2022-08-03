@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+section {
+  width: 70rem;
+  margin: auto;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10rem;
+}
+
+[alt="brand-logo"] {
+  height: 3rem;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  color: #bbbbbb;
+  margin: 3rem;
+}
+
+.list-item {
+  margin: 1rem;
+}
+
+.grow-list {
+  flex-grow: 1;
+}
+
+/* Home on Nav */
+li:nth-child(1) {
+  color: #000000;
+}
+
+/* Buttons */
+.nav-button {
+  background-color: #5955b3;
+  color: #ffffff;
+  padding: 0.5rem;
+  border-radius: 7px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+/* Both Col  */
+
+.banner-container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Left Text */
+
+.heading-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+  width: 100%;
+  line-height: 4rem;
+  padding-top: 6rem;
+}
+
+h1 > span {
+  color: #5955b3;
+}
+
+.description {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: #bbbbbb;
+  width: 90%;
+  padding: 3rem 0rem;
+}
+
+/* Right Text */
+
+[alt="illustration"] {
+  display: flex;
+  align-items: right;
+  width: 50rem;
+}
